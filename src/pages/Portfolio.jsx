@@ -1,5 +1,11 @@
+import Header from "../components/Header/Header";
+import ProjectContainer from "../components/ProjectContainer/ProjectContainer";
+
 export default function Portfolio() {
     return (
-        <h1>Portfolio</h1>
+        <>
+        <Header title="Portfolio"/>
+        <ProjectContainer />
+        </>
     )
 }

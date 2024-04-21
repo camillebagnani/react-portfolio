@@ -1,5 +1,7 @@
+import Header from "../components/Header/Header";
+
 export default function Resume() {
     return (
-        <h1>Resume</h1>
+        <Header title="Resume"/>
     )
 }

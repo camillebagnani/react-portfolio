@@ -1,0 +1,41 @@
+.contactPageContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh;
+  }
+  
+  .contact-text {
+    padding: 0;
+    margin: 0px 20px;
+  }
+  
+  /* CONTACT FORM STYLING */
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  label {
+    text-align: left;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+  
+  #submit-button {
+    margin: 5px;
+    font-family: "Goblin One", serif;
+    text-shadow: 1px 1px #CF5C36;
+    color: pink;
+    font-size: 20px;
+  }
+  
+  #submit-button:hover {
+    background-color: pink;
+    color: white;
+  }

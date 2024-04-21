@@ -1,0 +1,35 @@
+.individual-project-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: pink;
+    width: 70vw;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .project-title {
+    font-size: 6vw;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  
+  .project-image {
+    width: 60vw;
+  }
+  
+  .project-links {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .project-highlights {
+    margin: 0px
+  }
+  
+  .project-description {
+    font-size: 4vw;
+    margin-top: 5px;
+  }

@@ -1,0 +1,14 @@
+/* NAVIGATION STYLING */
+.nav-link.active {
+  background-color: pink;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #FE6D73;
+}
+
+.nav-bar-header {
+  font-family: "Goblin One", serif;
+  color: pink;
+}
