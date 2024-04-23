@@ -33,3 +33,23 @@
     font-size: 4vw;
     margin-top: 5px;
   }
+
+  /* -----------------------------------------------------------DESKTOP STYLING----------------------------------------------------------- */
+  @media only screen and (min-width: 1024px) {
+    .individual-project-container {
+      width: 40vw;
+    }
+
+    .project-image {
+      width: 30vw;
+    }
+
+    .project-title {
+      font-size: 3vw;
+    }
+
+    .project-description {
+      font-size: 1vw;
+      margin-top: 5px;
+    }
+  }

@@ -28,7 +28,7 @@ function Navigation() {
                 <Nav.Link href="/contact">Contact</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href="/Resume">Resume</Nav.Link>
+                <Nav.Link href="/skills">Skills</Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

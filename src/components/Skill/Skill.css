@@ -1,0 +1,11 @@
+.skill-component {
+    margin: 15px;
+}
+
+.skill-list-container {
+display: flex;
+}
+
+.skill-name {
+    text-align: center;
+}
