@@ -16,7 +16,7 @@ export default function AboutText() {
                     In April 2024 I received a certificate from the University of Utah Professional Education Boot Camps
                     for Full Stack Web Development.</p>
                     
-                    <button>Click for Fun Fact</button>
+                    <button className='fact-btn'>Click for Fun Fact</button>
             </div>
         </>
     )

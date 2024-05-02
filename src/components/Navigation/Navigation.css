@@ -12,3 +12,20 @@
   font-family: "Goblin One", serif;
   color: pink;
 }
+
+#basic-navbar-nav {
+  margin: 5px;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+/* -----------------------------------------------------------DESKTOP STYLING----------------------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+.nav-link {
+  border-radius: 25px;
+}
+
+}
+

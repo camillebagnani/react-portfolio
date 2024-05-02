@@ -1,11 +1,37 @@
 .skill-component {
-    margin: 15px;
+    margin: 20px;
 }
 
 .skill-list-container {
-display: flex;
+    display: flex;
 }
 
+.skill-list-container:hover {
+    display: flex;
+    color: #FE6D73;
+    font-size: large;
+    }
+
 .skill-name {
-    text-align: center;
+    text-align: left;
+    width: 30vw;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.list-item {
+    width: 50vw;
+}
+
+/* -----------------------------------------------------------DESKTOP STYLING----------------------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+    .skill-name {
+        font-size: 20px;
+        width: 200px;
+    }
+    .skill-component {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
 }

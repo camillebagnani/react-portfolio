@@ -6,7 +6,9 @@ export default function Header(props) {
     return (
         <>
             <div className="header-container">
+                <a href="/">
                 <img src="/images/camille-bagnani-icon.png" alt="camille-bagnani-icon" className='logo'/>
+                </a>
                 <TypeAnimation
                 sequence={[
                     props.title,

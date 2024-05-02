@@ -1,5 +1,5 @@
 import Project from "../Project/Project"
-import { projectsData } from "../Project/Project"
+import { projectsData } from "../../pages/Portfolio"
 import './ProjectContainer.css'
 
 export default function ProjectContainer () {

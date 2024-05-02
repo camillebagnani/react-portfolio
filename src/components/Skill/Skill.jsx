@@ -13,7 +13,7 @@ export default function Skill(props) {
                         <div>
                             <ul>
                                 {oneSkill.skillDescription.map((listItem, index) => (
-                                    <li>{listItem}</li>
+                                    <li className='list-item'>{listItem}</li>
                                 ))}
                             </ul>
                         </div>

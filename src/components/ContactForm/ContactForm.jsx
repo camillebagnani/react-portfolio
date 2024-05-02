@@ -54,6 +54,7 @@ export default function ContactForm() {
                     <p className="error-text">{emptyErrorMessage}</p>
                 </div>
             )}
+             <p className="disclaimer">This form is not fully functional yet! Please email me using the email icon in the footer. Thank you!</p>
         </div>
     )
 }
