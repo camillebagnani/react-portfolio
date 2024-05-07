@@ -1,0 +1,33 @@
+footer {
+    background-color: black;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+ .footer-details {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 3px;
+    font-size: small;
+  }
+ 
+  .footer-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* bottom: 0; */
+    padding: 10px;
+  }
+  
+  .footer-icon {
+    height: 5vh;
+    padding: 3px;
+    margin: 3px;
+  }

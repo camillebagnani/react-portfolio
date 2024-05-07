@@ -1,0 +1,48 @@
+/* NAVIGATION STYLING */
+.nav-link.active {
+  background-color: pink;
+  color: white;
+}
+
+.nav-link:hover {
+  background-color: #FF7A90;
+}
+
+.nav-bar-header {
+  /* font-family: "Goblin One", serif; */
+  color: #FF7A90!important;
+  /* text-shadow: 1px 1px pink; */
+  font-weight: bold;
+}
+
+/* .nav-bar-header.navbar-brand {
+  margin: auto;
+  width: 100vw;
+} */
+
+#basic-navbar-nav {
+  margin: 5px;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+/* .navbar-container {
+  background-color: red;
+  display: flex;
+} */
+
+@media only screen and (max-width: 991px) {
+  .nav-link.active {
+    padding: 5px;
+  }
+  }
+
+/* -----------------------------------------------------------DESKTOP STYLING----------------------------------------------------------- */
+@media only screen and (min-width: 992px) {
+.nav-link {
+  border-radius: 25px;
+}
+}
+

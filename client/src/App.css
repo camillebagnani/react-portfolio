@@ -1,0 +1,89 @@
+/* #root { */
+/* max-width: 1280px; */
+/* margin: 0 auto; */
+/* padding: 2rem; */
+/* text-align: center; */
+/* } */
+
+#root {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 5px solid pink;
+}
+
+/* HOME PAGE STYLING */
+.home-container {
+  height: 48vh;
+}
+
+/* ABOUT PAGE STYLING */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headshot {
+  height: 30vh;
+  margin-top: 10px;
+}
+
+.q-and-a-container {
+  margin: 30px;
+}
+
+.about-text-container {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* SKILLS PAGE STYLING */
+.skills-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.resume-btn {
+  margin: 20px;
+  /* font-family: "Goblin One", serif; */
+  text-shadow: 1px 1px #CF5C36;
+  font-size: 20px;
+  background-color: pink;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.resume-btn:hover {
+  color: pink;
+  background-color: white;
+  border: solid 1px black;
+}
+
+/* -----------------------------------------------------------DESKTOP STYLING----------------------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+
+  /* HOME PAGE STYLING */
+  .home-container {
+    height: 60vh;
+  }
+
+  /* ABOUT PAGE STYLING */
+  .q-and-a-container {
+    margin: 0 320px 20px 320px;
+  }
+}

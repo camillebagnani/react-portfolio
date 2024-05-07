@@ -1,0 +1,24 @@
+/* .fact-btn {
+    margin: 20px;  
+    text-shadow: 1px 1px #CF5C36;
+    font-size: 15px;
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.fact-btn:hover {
+    color: pink;
+    background-color: white;
+    border: solid 1px black;
+  } */
+
+  /* -----------------------------------------------------------DESKTOP STYLING----------------------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+    .about-text-container {
+        margin: 51px 320px;
+    }
+     
+     }

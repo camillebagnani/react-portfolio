@@ -4,6 +4,7 @@ export default function Home() {
     return (
         <>
             <Header title="Welcome!" className="home-header"/>
+            <div className="home-container"></div>
         </>
     )
 }

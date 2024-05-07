@@ -9,8 +9,8 @@ function Navigation() {
 
   return (
       <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="/" className='nav-bar-header'>Camille Bagnani</Navbar.Brand>
+        <Container className="navbar-container">
+          <Navbar.Brand href="/" className='nav-bar-header'>✨Camille Bagnani✨</Navbar.Brand>
           <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
