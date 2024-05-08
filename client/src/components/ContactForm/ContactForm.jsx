@@ -22,8 +22,6 @@ export default function ContactForm() {
                     'Content-Type': 'application/json',
                 },
             });
-
-            console.log("Response:", response);
             
             if (response.ok) {
                 console.log("Request successful!")
@@ -33,11 +31,9 @@ export default function ContactForm() {
             } else {
                 console.log("Error")
             }
-
         } catch (err) {
             console.error(err)
         }
-
     };
 
     const handleSubmitClick = (e) => {
