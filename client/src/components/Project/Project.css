@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     margin: 10px;
-    background-color: pink;
+    background-color: #f26bac;
     width: 70vw;
     padding: 5px;
     justify-content: center;
@@ -15,6 +15,7 @@
     font-size: 6vw;
     margin: 0px;
     margin-bottom: 5px;
+    color: white;
   }
   
   .project-image {

@@ -19,26 +19,32 @@ app.post('/', jsonParser, async (req, res) => {
         database: process.env.DB_NAME,
     });
 
-    console.log(req.body)
+    // console.log(req.body)
 
     const name = req.body.name
     const email = req.body.email
     const message = req.body.message
 
-    console.log(name, email, message)
+    console.log("SERVER",name, email, message)
 
     try {
-        const sql =
-            `INSERT INTO emails(name, email, message) VALUES ("${name}", "${email}", "${message}")`;
+        const sql = `INSERT INTO emails (name, email, message) VALUES (?, ?, ?)`;
+        connection.query(sql, [name, email, message], (err, result) => {
+            if (err) {
+                console.error(err);
+                res.sendStatus(500)
+            } else {
+                res.sendStatus(200)
+            }
+        })
 
-        res.sendStatus(200)
     } catch (err) {
         console.log(err);
-        res.sendStatus(500)
+        res.sendStatus(500);
     }
-})
+});
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`App listening on port ${port}`)
 })
 

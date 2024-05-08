@@ -8,14 +8,14 @@
 
 .skill-list-container:hover {
     display: flex;
-    color: #FF7A90;
-    font-size: large;
+    color: #f26bac;
+    /* font-size: large; */
     }
 
 .skill-name {
     text-align: left;
     width: 30vw;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 

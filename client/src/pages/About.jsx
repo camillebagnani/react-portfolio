@@ -42,7 +42,7 @@ export default function About() {
             <div className="about-container">
                 <img src="/images/camille-bagnani-photo.jpeg" alt="camille-headshot" className="headshot" />
                 <div className='about-text-container'>
-                    <h3 className="hello">Hello! My name is <span style={{ color: 'pink' }}>Camille</span>.</h3>
+                    <h3 className="hello">Hello! My name is <span style={{ color: '#f26bac' }}>Camille</span>.</h3>
                     {biographyData.map((paragraph, index) => (
                         <AboutText
                             key={index}
@@ -51,7 +51,7 @@ export default function About() {
                     ))}
                 </div>
 
-                <h4 className='get-to-know-me' style={{ color: 'pink' }}>Get to know me!</h4>
+                <h4 className='get-to-know-me' style={{ color: '#f26bac' }}>Get to know me!</h4>
                 <div className="q-and-a-container">
                     {aboutData.map((about, index) => (
                         <QandA

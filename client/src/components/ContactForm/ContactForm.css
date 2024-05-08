@@ -36,7 +36,7 @@ label {
   margin: 5px 0 20px 0;
   /* font-family: "Goblin One", serif; */
   text-shadow: 1px 1px #CF5C36;
-  background-color: pink;
+  background-color: #f26bac;
   color: white;
   font-size: 20px;
   border: none;
@@ -46,7 +46,7 @@ label {
 
 #submit-button:hover {
   background-color: white;
-  color: pink;
+  color: #f26bac;
   border: solid 1px black;
 }
 
@@ -59,5 +59,12 @@ label {
 
   .disclaimer {
     margin: 30px 0;
+  }
+
+  #submit-button {
+    width: 20vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
   }
 }

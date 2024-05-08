@@ -13,7 +13,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  border: 5px solid pink;
+  border: 5px solid #f26bac;
 }
 
 /* HOME PAGE STYLING */
@@ -35,11 +35,11 @@ body {
 }
 
 .q-and-a-container {
-  margin: 30px;
+  margin: 0 30px 30px 30px;
 }
 
 .about-text-container {
-  margin: 30px;
+  margin: 30px 30px 0 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +61,7 @@ body {
   /* font-family: "Goblin One", serif; */
   text-shadow: 1px 1px #CF5C36;
   font-size: 20px;
-  background-color: pink;
+  background-color: #f26bac;
   color: white;
   border: none;
   padding: 10px;
@@ -69,7 +69,7 @@ body {
 }
 
 .resume-btn:hover {
-  color: pink;
+  color: #f26bac;
   background-color: white;
   border: solid 1px black;
 }
@@ -85,5 +85,10 @@ body {
   /* ABOUT PAGE STYLING */
   .q-and-a-container {
     margin: 0 320px 20px 320px;
+  }
+
+  .headshot {
+    height: 40vh;
+    margin-top: 35px;
   }
 }

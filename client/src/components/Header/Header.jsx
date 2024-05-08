@@ -16,7 +16,7 @@ export default function Header(props) {
                 ]}
                 wrapper="span"
                 speed={10}
-                style={{fontSize: '3em', display: 'flex', justifyContent: 'center', alignItems: 'center', color: 'pink'}}
+                style={{fontSize: '3em', display: 'flex', justifyContent: 'center', alignItems: 'center', color: '#f26bac'}}
             />
             </div>
         </>

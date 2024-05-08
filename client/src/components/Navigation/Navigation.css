@@ -1,16 +1,17 @@
 /* NAVIGATION STYLING */
 .nav-link.active {
-  background-color: pink;
-  color: white;
+  background-color: #f26bac;
+  color: white!important;
 }
 
 .nav-link:hover {
-  background-color: #FF7A90;
+  background-color: pink;
+  color: white!important;
 }
 
 .nav-bar-header {
   /* font-family: "Goblin One", serif; */
-  color: #FF7A90!important;
+  color: #f26bac!important;
   /* text-shadow: 1px 1px pink; */
   font-weight: bold;
 }
