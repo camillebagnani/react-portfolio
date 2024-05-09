@@ -1,0 +1,1 @@
+cd client && docker build -t webbjack/camille-site-client . && docker push webbjack/camille-site-client && cd ../server && docker build -t webbjack/camille-site-server . && docker push webbjack/camille-site-server

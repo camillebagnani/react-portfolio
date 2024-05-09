@@ -12,11 +12,13 @@ app.use(cors())
 require('dotenv').config()
 
 app.post('/', jsonParser, async (req, res) => {
+  console.log('hit')
 
   const connection = await mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
+    host: 'mysql.default.svc.cluster.local',
+    user: process.env.DB_USER,
     database: 'website_emails_db',
+    password: process.env.DB_PASSWORD,
   });
 
   // console.log(req.body)
