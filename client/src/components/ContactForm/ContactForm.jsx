@@ -11,7 +11,7 @@ export default function ContactForm() {
 
     const fillOutForm = async (req, res) => {
         try {
-            let response = await fetch("https://camille-api.suguruserver.com", {
+            let response = await fetch("https://localhost:3000/", {
                 method: "POST",
                 body: JSON.stringify({
                     name: nameInput,

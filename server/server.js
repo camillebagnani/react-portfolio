@@ -15,10 +15,9 @@ app.post('/', jsonParser, async (req, res) => {
   console.log('hit')
 
   const connection = await mysql.createConnection({
-    host: 'mysql.default.svc.cluster.local',
-    user: process.env.DB_USER,
+    host: '127.0.0.1',
+    user: 'root',
     database: 'website_emails_db',
-    password: process.env.DB_PASSWORD,
   });
 
   // console.log(req.body)
